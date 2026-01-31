@@ -1,0 +1,12 @@
+train: my_dataset/train/images
+val: my_dataset/valid/images
+
+nc: 8
+names: ['bacK', 'down', 'forward', 'landoff', 'left', 'right', 'takeoff', 'up']
+
+roboflow:
+  workspace: wrj-ac1k5
+  project: dataset-jejem
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/wrj-ac1k5/dataset-jejem/dataset/2
